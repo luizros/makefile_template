@@ -3,6 +3,8 @@
 #include "soma.h"
 #include "sub.h"
 #include "mult.h"
+#include "div.h"
+
 
 int main(void){ 
 
@@ -22,6 +24,7 @@ int main(void){
     printf("Soma: %d\n", soma(i,j));
     printf("Sub: %d\n", sub(i,j));
     printf("Produto: %d\n", multiplica(i,j));
+    printf("Divisão:%d\n", divisao(i,j));
     return 0;
 }
 
