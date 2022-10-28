@@ -12,7 +12,7 @@ FLAGS = -O3 -Wall
 all: libed cleanapps myapps
 
 # Compila bibliotecas do projeto
-libed: $(OBJETOS)/soma.o $(OBJETOS)/sub.o $(OBJETOS)/mult.o
+libed: $(OBJETOS)/soma.o $(OBJETOS)/sub.o $(OBJETOS)/mult.o $(OBJETOS)/div.o
 	ar -rcs $(LIB)/libed.a $(OBJETOS)/*.o
 	
 # Compila o arquivo main
