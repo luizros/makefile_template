@@ -1,4 +1,4 @@
-# Template para compilar bibliotecas e programas em C
+# Template para compilar bibliotecas e programas em C/C++
 
 Este projeto contém um arquivo Makefile que auxilia na criação e organização pastas para programação em C e C++ para distribuições Linux. 
 
